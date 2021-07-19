@@ -6,13 +6,13 @@ Ever wanted to have a nice structure in the editor inspector? Are your exported 
 
 ## Install
 
-You can just copy-paste the file addons/inspector_hierarchy_helper/InspectorHierarchyHelper.gd to your project, or clone/download this repo into your project. No need to activate the plugin. This is merely a helper script.
+You can just copy-paste the file [addons/inspector_hierarchy_helper/InspectorHierarchyHelper.gd](/addons/inspector_hierarchy_helper/InspectorHierarchyHelper.gd) to your project, or clone/download this repo into your project. No need to activate the plugin. This is merely a helper script.
 
 ## Example
 
 See the example folder for a more comprehensive example.
 
-if your code was:
+If your code is something like:
 
 ```gdscript
 extends Node
@@ -32,7 +32,7 @@ You need to:
 - Public vars _always_ need a specified type
 - Make your script of type tool (adding the _tool_ keyword in the beginning)
 - Include the startup code
-- Include `__` in the variable names whenever you want a folder
+- Include `__` in the middle of variable names whenever you want a folder
 
 like so:
 
