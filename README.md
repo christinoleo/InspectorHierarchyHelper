@@ -2,6 +2,8 @@
 
 Ever wanted to have a nice structure in the editor inspector? Are your exported variables unorganized? Not willing to override \_get, \_set and \_get_property_list and set up all the necessary things? Here is a simple helper class to create structure from code!!
 
+![showcase](/screenshot.png?raw=true "Example of folder-like structure")
+
 ## Install
 
 You can just copy-paste the file addons/inspector_hierarchy_helper/InspectorHierarchyHelper.gd to your project, or clone/download this repo into your project. No need to activate the plugin. This is merely a helper script.
