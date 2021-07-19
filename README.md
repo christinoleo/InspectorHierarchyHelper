@@ -31,8 +31,8 @@ You need to:
 - Restructure the code so that private variables start with \_
 - Public vars _always_ need a specified type
 - Make your script of type tool (adding the _tool_ keyword in the beginning)
-- Include the startup code
 - Include `__` in the middle of variable names whenever you want a folder
+- Include the startup code, which is exemplified below
 
 like so:
 
