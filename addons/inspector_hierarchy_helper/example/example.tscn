@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/inspector_hierarchy_helper/example/icon.gd" type="Script" id=1]
+[ext_resource path="res://addons/inspector_hierarchy_helper/example/icon.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="icon" type="Sprite" parent="."]
+position = Vector2( 204.656, 173.472 )
+texture = ExtResource( 2 )
+script = ExtResource( 1 )
+some_var = 1
+some_bool = false
+myfolder__another_var = 4
+myfolder__another_bool = false
+some_other_folder__one_curve = null
+some_other_folder__also_a_texture = null
+some_other_folder__some_text = "three"
+some_other_folder__some_path = NodePath("")
+some_other_folder__some_path2 = "res://project.godot"
