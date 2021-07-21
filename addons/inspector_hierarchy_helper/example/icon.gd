@@ -14,9 +14,11 @@ var some_other_folder__some_path2 :String
 var _help: InspectorHierarchyHelper
 
 func _ready() -> void:
+	# Example that variables are correcly set
 	prints(some_other_folder__some_path2, some_other_folder__some_text, myfolder__another_bool, myfolder__another_var)
 
 func _init() -> void:
+	# here I added a dict to specify further options of two of the vars: an ENUM and a FILE_PATH. More info in @GlobalScope.
 	_help = InspectorHierarchyHelper.new(self,
 		{'some_other_folder__some_text': {'hint': PROPERTY_HINT_ENUM, 'hint_string':' one,two,three'},
 		'some_other_folder__some_path2': {'hint': PROPERTY_HINT_FILE}
